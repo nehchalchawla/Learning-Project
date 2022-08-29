@@ -111,3 +111,41 @@
 //    FirstName = Console.ReadLine();
 //    LastName = Console.ReadLine(); 
 //}
+
+//Arrays Challenges 
+//Challenge 1 
+//                       0         1       2        3         4 
+//string[] Students = { "Pan Pan", "Mahi", "Kav", "Kylen", "Nehchal" };
+//for (int i = 0; i < 5; i = i + 1)
+//{
+//    Console.WriteLine(Students[i]);
+//}
+
+////Challenge 2 
+//int[] Numbers = { 5, 6, 3, 9, 1 };
+//Console.WriteLine(Numbers[0]);
+//Console.WriteLine(Numbers[4]);
+
+////Challenge 3 
+//int[] Numbers = { 5, 6, 3, 9, 1, 4, 10, 23, 19, 7 }; 
+//for(int i = Numbers.Length - 1; i >= 0; i = i - 1 )
+//{
+//    Console.WriteLine(Numbers[i]);
+//}
+
+////Challenge 4 
+//int[] Numbers = { 5, 6, 3, 9, 1 };
+//int Total = 0;
+//for (int i = 0; i < Numbers.Length; i++)
+//{
+//    Total = Total + Numbers[i];
+//}
+//double Average = (double)Total / Numbers.Length;
+//Console.WriteLine(Average);
+
+////Challenge 5 
+//string[] Names = new string[5];
+//for (int i = 0; i < 5; i++)
+//{
+//    Names[i] = Console.ReadLine();
+//}
