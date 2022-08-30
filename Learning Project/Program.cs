@@ -149,3 +149,53 @@
 //{
 //    Names[i] = Console.ReadLine();
 //}
+
+//for (int i = 0; i < 5; i++)
+//{
+//    Console.WriteLine(Names[i]);
+//}
+
+////Challenge 6 
+//int[] Numbers = new int[50];
+
+//for(int i = 0; i < Numbers.Length; i++)
+//{
+//    int RandomNumber = new Random().Next(-100,101);
+//    Numbers[i] = RandomNumber;
+//}
+
+//int Highest = Numbers[0];
+//int Lowest = Numbers[0];
+//for (int i = 0; i < Numbers.Length; i++)
+//{
+//    if (Numbers[i] > Highest)
+//    {
+//        Highest = Numbers[i];
+//        if (Numbers[i] < Lowest)
+//        {
+//            Lowest = Numbers[i];
+//        }
+//    }
+//}
+//Console.WriteLine("Highest: " + Highest);
+//Console.WriteLine("Lowest: " + Lowest);
+
+//Challenge 7 
+string[] Names = { "Alan", "Bob", "Chris", "Dave", "Ed" };
+string SearchName = "Dave";
+bool Found = false;
+for(int i = 0; i < Names.Length; i++)
+{
+    if (Names[i] == SearchName)
+    {
+        Found = true;
+    }
+}
+if (Found == true)
+{
+    Console.WriteLine("Found");
+}
+else
+{
+    Console.WriteLine("Not Found");
+}
