@@ -112,7 +112,7 @@
 //    LastName = Console.ReadLine(); 
 //}
 
-//Arrays Challenges 
+//ARRAYS CHALLENGES 
 //Challenge 1 
 //                       0         1       2        3         4 
 //string[] Students = { "Pan Pan", "Mahi", "Kav", "Kylen", "Nehchal" };
@@ -180,22 +180,96 @@
 //Console.WriteLine("Highest: " + Highest);
 //Console.WriteLine("Lowest: " + Lowest);
 
-//Challenge 7 
-string[] Names = { "Alan", "Bob", "Chris", "Dave", "Ed" };
-string SearchName = "Dave";
-bool Found = false;
-for(int i = 0; i < Names.Length; i++)
-{
-    if (Names[i] == SearchName)
-    {
-        Found = true;
-    }
-}
-if (Found == true)
-{
-    Console.WriteLine("Found");
-}
-else
-{
-    Console.WriteLine("Not Found");
-}
+////Challenge 7 
+//string[] Names = { "Alan", "Bob", "Chris", "Dave", "Ed" };
+//string SearchName = "Dave";
+//bool Found = false;
+//for(int i = 0; i < Names.Length; i++)
+//{
+//    if (Names[i] == SearchName)
+//    {
+//        Found = true;
+//    }
+//}
+//if (Found == true)
+//{
+//    Console.WriteLine("Found");
+//}
+//else
+//{
+//    Console.WriteLine("Not Found");
+//}
+
+//Challenge 8 
+//string[] Names = { "Alan", "Bob", "Chris", "Dave", "Ed" };
+//string Name1 = "Bob";
+//string Name2 = "Chris";
+
+//bool Found = false;
+
+//for (int i = 0; i < Names.Length -1; i = i + 1 )
+//{
+//    if (Names[i] == Name1 && Names[i+1] == Name2) 
+//    {
+//        Found = true; 
+//    }
+//}
+//Console.WriteLine("Found: " + Found);
+
+////Challenge 9 
+//int[] Numbers = new int[100];
+//for (int i = 0; i < Numbers.Length; i++)
+//{
+//    int RandomNumber = new Random().Next(0, 101);
+//    Numbers[i] = RandomNumber;
+//}
+//for (int i = 0; i < Numbers.Length; i++)
+//{
+//    if (Numbers[i] > 30 && Numbers[i] < 60)
+//        Console.WriteLine(Numbers[i]);
+//}
+
+////Challenge 10 
+//string[] places = ["Aus", "Brunei", "China", "Denmark", "Denmark", "France", "Spain"];
+//string[] Duplicates = new string[100];
+//for (int i = 0; 1 < places.Length; i++)
+//{
+//    for (int x = i + 1; x < places[x].Length; x++)
+//    {
+//        if (places[i] == Places[x])
+//        {
+//            Console.WriteLine("DUPLICATE: " + places[i]);
+//        }
+//    }
+//}
+
+////Challenge 11 
+//string[] Names = { "Alan", "Bob", "Chris", "Dave", "Ed" };
+//string DeleteName = "Ed"; 
+//for (int i = 0; i < Names.Length; i++)
+//{
+//    if (Names[i] == DeleteName)
+//    {
+//        for (int x = i; x < Names.Length - 1; x++)
+//        {
+//            Names[i] = Names[x + 1];
+//        }
+//    }
+//    Names[Names.Length - 1] = "";
+//}
+
+////Challenge 12 
+//for (int Number = 2; Number <= 29; Number++)
+//{
+//    bool IsPrime = true;
+//    for (int i = 2; i < Number; i++)
+//    {
+//        if (Number % i == 0)
+//        {
+//            IsPrime = false;
+//        }
+//    }
+//    if (IsPrime ==  true)
+//    Console.WriteLine(Number + ",");
+//} 
+
